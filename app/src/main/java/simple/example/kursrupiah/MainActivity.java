@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     JSONObject kursTerbaru;
     DecimalFormat formatUang;
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

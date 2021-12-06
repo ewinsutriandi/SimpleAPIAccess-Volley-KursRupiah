@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void ambilDataKurs() {
         loadingIndicator.setVisibility(View.VISIBLE);
-        String baseURL = "https://api.exchangeratesapi.io/latest?base=IDR";
+        String baseURL = "https://api.exchangerate-api.com/v4/latest/IDR";
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
                 (Request.Method.GET, baseURL, null, new Response.Listener<JSONObject>() {
                     @Override
